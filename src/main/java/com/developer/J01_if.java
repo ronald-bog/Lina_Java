@@ -2,7 +2,7 @@ package com.developer;
 
 public class J01_if {
 
-    public static void ifest() {
+    public static void ifEst() {
         int edad = 10;
         if (edad > 18) {
             System.out.println("Eres mayor de edad");
@@ -40,5 +40,5 @@ public class J01_if {
                 System.out.println("Este es el block del default");
         }
     }
-}
 
+}
