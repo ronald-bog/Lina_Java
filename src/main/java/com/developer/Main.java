@@ -7,9 +7,8 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //System.out.println(J02_strings.nombre);
-        //System.out.println(J02_strings.J02Strings());
-        System.out.println(Arrays.toString(J02_strings.J02Strings()));
+        J03_while.whileEst();
+
     }
 }
 
