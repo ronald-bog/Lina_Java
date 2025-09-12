@@ -1,11 +1,15 @@
 package com.developer;
+
+import java.util.Arrays;
+
 // github: Linchipa
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         //System.out.println(J02_strings.nombre);
-        System.out.println(J02_strings.J02Strings());
+        //System.out.println(J02_strings.J02Strings());
+        System.out.println(Arrays.toString(J02_strings.J02Strings()));
     }
 }
 
