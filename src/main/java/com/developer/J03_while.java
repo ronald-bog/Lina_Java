@@ -20,7 +20,7 @@ public class J03_while {
 */
         // Control flujo dentro del loop
         // break
-
+/*
         int num2 = 0;
         while(num2 < 10){
             if (num2 == 6){
@@ -28,9 +28,17 @@ public class J03_while {
             }
             System.out.println(num2);
             num2 ++;
-        }
+        }*/
 
         // continue
+        int num3 = 0;
+        while(num3 < 10){
 
+            if (num3 == 6){
+                continue;
+            }
+            System.out.println(num3);
+            num3 ++;
+        }
     }
 }

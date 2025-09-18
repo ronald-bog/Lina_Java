@@ -7,8 +7,7 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        J03_while.whileEst();
-
+        J04_for.forEst();
     }
 }
 
