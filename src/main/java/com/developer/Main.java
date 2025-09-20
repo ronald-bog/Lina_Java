@@ -7,7 +7,9 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        J04_for.forEst();
+        int[] arrNumeros = {1,2,3,6564,68263,935};
+
+        System.out.println(J05_metodos.paramVar(1,2,3,100));
     }
 }
 
