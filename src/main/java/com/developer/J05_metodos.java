@@ -41,4 +41,31 @@ public class J05_metodos {
         }
         return suma;
     }
+
+    // Metodos sobrecargados
+
+    public static void saludar(String param1){
+        System.out.printf("Hola %s como estas", param1);
+    }
+
+    public static void saludar(String param1, String param2){
+        System.out.printf("Hello %s %s como estas", param1, param2);
+    }
+
+    public static void saludar(String param1, String param2, int edad){
+        System.out.printf("Hola %s %s como estas, tu edad es %d.", param1, param2, edad);
+    }
+
+    // Retorno Condicionado
+
+    public static String retornoCond(String clima){
+        if (clima.equals("frio")){
+            return "Esta haciendo friooooo";
+        } else if (clima.equals("calor")){
+            return "Esta haciendo Calorrrr";
+        }
+        return "No me dijiste un estado valido del clima";
+    }
+
+
 }
