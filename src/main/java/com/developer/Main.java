@@ -7,8 +7,9 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.print(J05_metodos.retornoCond("frio"));
+        lunaRetornada = J05_metodos.genericosRet(10);
 
+        System.out.println(lunaRetornada);
     }
 }
 

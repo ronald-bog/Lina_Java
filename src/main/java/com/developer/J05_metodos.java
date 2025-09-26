@@ -67,5 +67,28 @@ public class J05_metodos {
         return "No me dijiste un estado valido del clima";
     }
 
+    // Retorno de multiples valores
+
+    public static int[] devolverDosValores(){
+        int a = 101;
+        int b = 53;
+        return new int[]{a, b};
+    }
+
+    public static Object[] devolverDosTipos(){
+        int numero = 8;
+        String luna = "Titan";
+        return new Object[]{numero, luna};
+    }
+
+    // Parametros Genericos
+
+    public static <T> void genericos(T numero){
+        System.out.println(numero);
+    }
+
+    public static <L> L genericosRet(L element){
+        return element;
+    }
 
 }
