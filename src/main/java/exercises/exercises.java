@@ -119,5 +119,50 @@ Requisitos del método:
                  output: La nueva cadena es: s
 
 
+**** Ejercicios Septiembre 29 / 2025  ****
+
+5. Crea un método que permita calcular la suma de una lista de números (usando varargs), pero que solo devuelva la suma si la cantidad de números es mayor a 2. Si hay 2 o menos números, debe retornar -1 como señal de que la operación no es válida.
+
+    Requisitos:
+    - El método debe recibir al menos un número (parámetro posicional), y puede recibir más (varargs).
+    - Debe retornar la suma solo si hay más de 2 números en total.
+    - Si hay 2 o menos, debe retornar -1.
+    - Crear una clase y dentro de ella el metodo, ejecutar desde el metodo main.
+    - No es necesario utilizar scanner.
+
+    test case 1: (7)
+                 output:  -1
+
+    test case 2:  inputs: (5, 10, 15)
+                 output:  30
+
+    test case 3:  inputs: (5, 10)
+                 output: -1
+
+    test case 4:  inputs: (1, 2, 3, 4, 5)
+                 output: 15
+
+
+6. Crea una clase 'GestorMensajes' con varios métodos sobrecargados 'enviarMensaje' que retornen un String con el mensaje formateado.
+
+    - Implementa las 4 versiones del método enviarMensaje con diferentes parámetros.
+    - Retorna el mensaje formateado según cada versión.
+    - Observa cómo Java selecciona el método correcto según los argumentos pasados.
+    - Ejecutar desde el metodo main.
+    - No es necesario utilizar scanner.
+
+    test case 1: ("Hola")
+                 output:  Mensaje: Hola
+
+    test case 2:  inputs: ("Ana", "Hola, ¿cómo estás?")
+                 output:  30
+
+    test case 3:  inputs: ("Luis", "Reunión", "No olvides la reunión de hoy.")
+                 output: Para Luis - Asunto: Reunión - Mensaje: No olvides la reunión de hoy.
+
+    test case 4:  inputs: ("Carlos", "Recordatorio importante", true, 3)
+                 output: Carlos - Prioritario: true - Reintentos: 3 - Mensaje: Recordatorio importante
+
+
 */
 }
