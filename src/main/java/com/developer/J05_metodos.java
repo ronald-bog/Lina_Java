@@ -90,5 +90,4 @@ public class J05_metodos {
     public static <L> L genericosRet(L element){
         return element;
     }
-
 }
